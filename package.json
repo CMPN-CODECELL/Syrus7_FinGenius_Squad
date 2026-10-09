@@ -1,0 +1,7 @@
+{
+  "name": "skillsync-ai-poc-frontend",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview"},
+  "devDependencies": {"vite":"^6.4.4"}
+}

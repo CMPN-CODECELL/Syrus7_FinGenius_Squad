@@ -1,5 +1,2 @@
-.env
-.venv/
-__pycache__/
-*.pyc
-skillsync.db
+node_modules/
+dist/
