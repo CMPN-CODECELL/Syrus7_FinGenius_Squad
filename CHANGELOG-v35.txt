@@ -1,0 +1,7 @@
+SkillSync v35 — match before scoring
+
+- Reworked match calculation to parse extracted skill/tag/education/experience fields whether lists or JSON strings.
+- Calculates profile overlap using phrase and meaningful word-level matches across title, description, type, organization, format, skills, tags, education and experience.
+- Personalized Why You Fit prompt receives the actual matched profile terms and is required to name concrete overlaps rather than generic profile summaries.
+- Existing tier constraints and unrelated-email cap are retained.
+- Backend syntax and ZIP integrity checked; live model/browser behavior not tested.

@@ -1,0 +1,7 @@
+SkillSync v34 — payment extraction and match tier constraints
+
+- Extraction prompt explicitly treats subject/title/body/forwarded content as evidence and distinguishes paid-to-participant benefits from participation fees.
+- Deterministic normalization recovers explicit paid/unpaid/free and monetary benefit signals when AI leaves those fields empty.
+- Match scoring counts meaningful word-level overlaps for interests/skills (e.g. research within AI research).
+- Multiple profile overlaps score within 50–75; one overlap remains 25–50; liked-event affinity remains the 75–100 tier; unrelated messages are capped below 15.
+- Syntax and ZIP integrity checked; live model and browser workflow not tested.

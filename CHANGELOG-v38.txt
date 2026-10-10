@@ -1,0 +1,7 @@
+SkillSync v38 — complete tiers and liked-event Tier 1
+
+- Added Tier 3 to the Match Tier filter for opportunities with multiple profile matches.
+- Tier mapping is now: 1 = liked event or similar to liked events; 2 = one profile match; 3 = multiple profile matches; 4 = relevant opportunity with no detected profile overlap; 5 = unrelated email.
+- A directly liked opportunity is assigned Tier 1 for the current account.
+- Frontend tier labels updated to reflect all five tiers.
+- Syntax and ZIP integrity checked; live DB/browser behavior not tested.

@@ -1,0 +1,8 @@
+SkillSync v37 — tier-only ranking UI
+
+- Removed the minimum percentage match slider from the opportunity filter.
+- Opportunity cards show tier labels and descriptions rather than percentage match values.
+- Matching matrix summary uses tier labels instead of percentages.
+- Match Tier dropdown is retained as the only ranking filter.
+- Backend score values remain internal for compatibility, but are no longer shown or used as a frontend percentage filter.
+- ZIP integrity and backend syntax checked; browser workflow not tested.

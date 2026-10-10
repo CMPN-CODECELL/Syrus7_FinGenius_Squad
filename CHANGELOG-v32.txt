@@ -1,0 +1,7 @@
+SkillSync v32 — mail summaries, duplicate handling, expired deadlines
+
+- Opportunity email descriptions are requested as one complete, concise sentence summarizing the full message, not an email greeting/opening.
+- Gmail messages are processed oldest-to-newest so when duplicates are merged, the newest email's details are applied last.
+- Duplicate detection retains existing URL/title heuristics and uses the configured AI model for borderline semantic comparisons, with heuristic fallback if AI is unavailable.
+- Feed access removes opportunities with clearly parsed deadlines earlier than today, along with related source/tracked/liked references. Unknown or unparseable deadlines are retained.
+- This is a targeted incremental patch on v31. Live Gmail/Groq/browser integration has not been tested.

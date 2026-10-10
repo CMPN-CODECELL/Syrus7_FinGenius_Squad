@@ -1,0 +1,9 @@
+SkillSync v36 — tier ranking and filter
+
+- API now includes matchTier alongside matchScore.
+- Tier 1: similar to a previously liked event.
+- Tier 2: one or multiple profile skill/interest overlaps.
+- Tier 4: listed learning/career opportunity with no profile overlap.
+- Tier 5: unrelated email.
+- Added a Match Tier dropdown filter to the opportunity sidebar; existing percentage score filter remains available.
+- Backend syntax and ZIP integrity checked; live browser/database workflow not tested.

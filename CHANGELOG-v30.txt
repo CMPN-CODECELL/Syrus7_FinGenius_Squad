@@ -1,0 +1,10 @@
+SkillSync v30 — Liked opportunities and ranking tiers
+
+- Added per-account heart/like persistence for opportunities.
+- Added a red heart toggle to opportunity cards.
+- Liked events influence the same user's future opportunity ranking when listings share meaningful terms.
+- Implemented requested score tiers: 0–25 discovery; 25–50 one profile-term match; 50–75 multiple profile-term matches; 75–100 similarity to previously liked opportunities.
+- Changed the default match-score filter to 0 so lower-scoring opportunities are visible instead of being hidden by the previous 75% default.
+- Added per-user liked state to the opportunities API.
+
+Validation performed: ZIP integrity, Python syntax, and JavaScript syntax. Live Gmail/database/browser flows were not run.

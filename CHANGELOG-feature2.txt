@@ -1,0 +1,12 @@
+SkillSync Feature 2 improvements
+
+- Why You Fit now requests a concise, profile-specific AI explanation from the configured Groq endpoint when GROQ_API_KEY is set, with a grounded fallback.
+- Added /api/profile/verify-entry to validate skill/interest entries with AI and reject obvious gibberish.
+- Profile interest addition verifies the entry before saving and displays feedback on rejection or verification failure.
+- Agent Console now accepts preparation/planning questions and uses current opportunity records plus the signed-in profile as context for AI answers.
+- Added suggested Agent Console prompt bubbles for deadlines, preparation, skill improvement, matching, and summaries/missing details.
+
+AI-generated behavior requires GROQ_API_KEY in backend/.env. Syntax checks do not verify live API responses or browser/database integration.
+
+Feature 2.1 adjustment:
+- Relaxed profile skill/interest verification: common interests such as Writing are accepted; only clear gibberish is intended to be rejected. AI validation is instructed to be permissive and uncertain cases with ordinary words are accepted.
